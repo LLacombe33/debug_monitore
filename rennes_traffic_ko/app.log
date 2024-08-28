@@ -1,0 +1,308 @@
+2024-08-27 15:25:09,120 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 15:25:11,581 - INFO - Scheduler started
+2024-08-27 15:25:11,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 15:25:11,647 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 15:26:06,940 - INFO - Scheduler has been shut down
+2024-08-27 15:26:22,301 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 15:26:23,168 - INFO - Scheduler started
+2024-08-27 15:26:23,216 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 15:26:23,216 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 15:27:16,437 - INFO - Scheduler has been shut down
+2024-08-27 15:27:31,968 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 15:27:32,843 - INFO - Scheduler started
+2024-08-27 15:27:32,893 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 15:27:32,893 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 15:27:40,034 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask_monitoringdashboard\core\measurement.py", line 129, in wrapper
+    raise raised_exception
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask_monitoringdashboard\core\measurement.py", line 108, in evaluate
+    result = route_handler(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\app.py", line 46, in index
+    fig_map = create_figure(data)
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\src\utils.py", line 8, in create_figure
+    fig_map = px.scatter_mapbox(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\plotly\express\_chart_types.py", line 1247, in scatter_mapbox
+    return make_figure(args=locals(), constructor=go.Scattermapbox)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\plotly\express\_core.py", line 2090, in make_figure
+    args = build_dataframe(args, constructor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\plotly\express\_core.py", line 1492, in build_dataframe
+    df_output, wide_id_vars = process_args_into_dataframe(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\plotly\express\_core.py", line 1213, in process_args_into_dataframe
+    raise ValueError(err_msg)
+ValueError: Value of 'color' is not the name of a column in 'data_frame'. Expected one of ['datetime', 'averagevehiclespeed', 'traveltime', 'trafficstatus', 'lat', 'lon'] but received: traffic
+2024-08-27 15:27:40,086 - INFO - 127.0.0.1 - - [27/Aug/2024 15:27:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-08-27 15:31:00,561 - INFO - Scheduler has been shut down
+2024-08-27 15:32:46,658 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 15:32:47,637 - INFO - Scheduler started
+2024-08-27 15:32:47,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 15:32:47,685 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 15:32:53,528 - INFO - 127.0.0.1 - - [27/Aug/2024 15:32:53] "GET / HTTP/1.1" 200 -
+2024-08-27 15:33:00,216 - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask_monitoringdashboard\core\measurement.py", line 129, in wrapper
+    raise raised_exception
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\flask_monitoringdashboard\core\measurement.py", line 108, in evaluate
+    result = route_handler(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\app.py", line 33, in index
+    cat_predict = prediction_from_model(model, selected_hour)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\src\utils.py", line 28, in prediction_from_model
+    cat_predict = np.argmax(model.predict(np.array([input_pred])))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lacom\AppData\Local\Temp\__autograph_generated_fileg3q_9z2c.py", line 18, in tf__predict_function
+    raise
+ValueError: in user code:
+
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\engine\training.py", line 2440, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\engine\training.py", line 2425, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\engine\training.py", line 2413, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\engine\training.py", line 2381, in predict_step
+        return self(x, training=False)
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_31" is incompatible with the layer: expected shape=(None, 24), found shape=(None, 25)
+
+2024-08-27 15:33:00,219 - INFO - 127.0.0.1 - - [27/Aug/2024 15:33:00] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-08-27 15:36:11,800 - INFO - Scheduler has been shut down
+2024-08-27 15:36:36,298 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 15:36:37,231 - INFO - Scheduler started
+2024-08-27 15:36:37,281 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 15:36:37,281 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 15:37:17,964 - INFO - 127.0.0.1 - - [27/Aug/2024 15:37:17] "GET / HTTP/1.1" 200 -
+2024-08-27 15:37:21,201 - INFO - 127.0.0.1 - - [27/Aug/2024 15:37:21] "POST / HTTP/1.1" 200 -
+2024-08-27 15:37:31,334 - INFO - 127.0.0.1 - - [27/Aug/2024 15:37:31] "POST / HTTP/1.1" 200 -
+2024-08-27 15:37:34,608 - INFO - 127.0.0.1 - - [27/Aug/2024 15:37:34] "POST / HTTP/1.1" 200 -
+2024-08-27 15:37:37,480 - INFO - 127.0.0.1 - - [27/Aug/2024 15:37:37] "POST / HTTP/1.1" 200 -
+2024-08-27 15:38:24,608 - INFO - 127.0.0.1 - - [27/Aug/2024 15:38:24] "POST / HTTP/1.1" 200 -
+2024-08-27 15:43:10,333 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/overview HTTP/1.1" 200 -
+2024-08-27 15:43:10,504 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "[36mGET /dashboard/static/css/main.css HTTP/1.1[0m" 304 -
+2024-08-27 15:43:10,510 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "[36mGET /dashboard/static/js/app.js HTTP/1.1[0m" 304 -
+2024-08-27 15:43:10,710 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/img/favicon.ico HTTP/1.1" 200 -
+2024-08-27 15:43:10,719 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/elements/menu.html HTTP/1.1" 200 -
+2024-08-27 15:43:10,722 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/elements/modal.html HTTP/1.1" 200 -
+2024-08-27 15:43:10,738 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/pages/overview.html HTTP/1.1" 200 -
+2024-08-27 15:43:10,757 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/api/custom_graphs HTTP/1.1" 200 -
+2024-08-27 15:43:10,797 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/pages/telemetry.html HTTP/1.1" 200 -
+2024-08-27 15:43:10,827 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:43:10,837 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:43:10,859 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:43:10,863 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:10] "GET /dashboard/static/elements/monitorLevel.html HTTP/1.1" 200 -
+2024-08-27 15:43:12,161 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:12] "[35m[1mPOST /dashboard/telemetry/accept_telemetry_consent HTTP/1.1[0m" 204 -
+2024-08-27 15:43:16,221 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:16] "POST /dashboard/telemetry/submit_follow_up HTTP/1.1" 200 -
+2024-08-27 15:43:17,344 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:17] "[36mGET /dashboard/static/pages/plotly_graph.html HTTP/1.1[0m" 304 -
+2024-08-27 15:43:17,366 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:17] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:43:17,370 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:17] "[36mGET /dashboard/static/elements/endpointDetails.html HTTP/1.1[0m" 304 -
+2024-08-27 15:43:28,402 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:28] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:43:28,414 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:28] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:43:28,421 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:28] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:43:32,368 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:32] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:43:32,885 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:32] "GET /dashboard/api/versions HTTP/1.1" 200 -
+2024-08-27 15:43:32,887 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:32] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 15:43:32,903 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:32] "POST /dashboard/api/multi_version HTTP/1.1" 200 -
+2024-08-27 15:43:34,545 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:34] "GET /dashboard/api/requests/2024-08-17/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:43:37,388 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:37] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 15:43:37,401 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:37] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 15:43:51,481 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:51] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:43:51,491 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:51] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:43:51,493 - INFO - 127.0.0.1 - - [27/Aug/2024 15:43:51] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:44:41,554 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:41] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:44,945 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:44] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:46,995 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:46] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:49,206 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:49] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:51,274 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:51] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:53,209 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:53] "POST / HTTP/1.1" 200 -
+2024-08-27 15:44:56,287 - INFO - 127.0.0.1 - - [27/Aug/2024 15:44:56] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:00,999 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:00] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:04,979 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:04] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:07,414 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:07] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:20,311 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:20] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:27,673 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:27] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:37,899 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:37] "POST / HTTP/1.1" 200 -
+2024-08-27 15:45:38,148 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-27 15:45:51,637 - INFO - 127.0.0.1 - - [27/Aug/2024 15:45:51] "POST /dashboard/api/set_rule HTTP/1.1" 200 -
+2024-08-27 15:46:20,334 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:20] "[36mGET /dashboard/static/pages/configuration.html HTTP/1.1[0m" 304 -
+2024-08-27 15:46:20,362 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:20] "GET /dashboard/api/deploy_config HTTP/1.1" 200 -
+2024-08-27 15:46:20,364 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:20] "GET /dashboard/api/users HTTP/1.1" 200 -
+2024-08-27 15:46:20,372 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:20] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:46:20,374 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:20] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:46:24,403 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:24] "[35m[1mPOST /dashboard/telemetry/accept_telemetry_consent HTTP/1.1[0m" 204 -
+2024-08-27 15:46:28,736 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:28] "[36mGET /dashboard/static/pages/database_management.html HTTP/1.1[0m" 304 -
+2024-08-27 15:46:28,754 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:28] "GET /dashboard/database_pruning/get_database_size HTTP/1.1" 200 -
+2024-08-27 15:46:28,756 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:28] "[33mGET /dashboard/database_pruning/get_pruning_schedule HTTP/1.1[0m" 404 -
+2024-08-27 15:46:34,335 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:34] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:46:34,336 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:34] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:46:34,336 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:34] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:46:39,531 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:39] "POST /dashboard/api/set_rule HTTP/1.1" 200 -
+2024-08-27 15:46:40,112 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:40] "POST /dashboard/api/set_rule HTTP/1.1" 200 -
+2024-08-27 15:46:40,668 - INFO - 127.0.0.1 - - [27/Aug/2024 15:46:40] "POST /dashboard/api/set_rule HTTP/1.1" 200 -
+2024-08-27 15:58:28,361 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:28] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:58:35,507 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:35] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:58:35,517 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:35] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:58:35,565 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:35] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:58:36,180 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:36] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:58:47,176 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:47] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 15:58:47,186 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:47] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 15:58:47,193 - INFO - 127.0.0.1 - - [27/Aug/2024 15:58:47] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 15:59:05,110 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:05] "GET /dashboard/api/versions HTTP/1.1" 200 -
+2024-08-27 15:59:05,116 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:05] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 15:59:05,132 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:05] "POST /dashboard/api/multi_version HTTP/1.1" 200 -
+2024-08-27 15:59:07,088 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:07] "GET /dashboard/api/requests/2024-08-17/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 15:59:08,185 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:08] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 15:59:08,200 - INFO - 127.0.0.1 - - [27/Aug/2024 15:59:08] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:00:31,942 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:31] "[36mGET /dashboard/static/pages/reporting.html HTTP/1.1[0m" 304 -
+2024-08-27 16:00:38,743 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:38] "GET /dashboard/api/versions HTTP/1.1" 200 -
+2024-08-27 16:00:43,378 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:43] "GET /dashboard/api/users HTTP/1.1" 200 -
+2024-08-27 16:00:43,384 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:43] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:00:43,386 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:43] "GET /dashboard/api/deploy_config HTTP/1.1" 200 -
+2024-08-27 16:00:43,391 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:43] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:00:55,863 - INFO - 127.0.0.1 - - [27/Aug/2024 16:00:55] "[35m[1mPOST /dashboard/telemetry/accept_telemetry_consent HTTP/1.1[0m" 204 -
+2024-08-27 16:01:12,995 - INFO - 127.0.0.1 - - [27/Aug/2024 16:01:12] "GET /dashboard/database_pruning/get_database_size HTTP/1.1" 200 -
+2024-08-27 16:01:12,997 - INFO - 127.0.0.1 - - [27/Aug/2024 16:01:12] "[33mGET /dashboard/database_pruning/get_pruning_schedule HTTP/1.1[0m" 404 -
+2024-08-27 16:01:19,861 - INFO - 127.0.0.1 - - [27/Aug/2024 16:01:19] "POST /dashboard/api/reporting/make_report/intervals HTTP/1.1" 200 -
+2024-08-27 16:11:12,012 - INFO - Scheduler has been shut down
+2024-08-27 16:11:31,859 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 16:11:32,901 - INFO - Scheduler started
+2024-08-27 16:11:32,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 16:11:32,951 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 16:11:40,536 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:40] "GET / HTTP/1.1" 200 -
+2024-08-27 16:11:43,944 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:43] "POST / HTTP/1.1" 200 -
+2024-08-27 16:11:46,299 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:46] "POST / HTTP/1.1" 200 -
+2024-08-27 16:11:48,317 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:48] "POST / HTTP/1.1" 200 -
+2024-08-27 16:11:50,466 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "GET /dashboard/reporting HTTP/1.1" 200 -
+2024-08-27 16:11:50,641 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "[36mGET /dashboard/static/js/app.js HTTP/1.1[0m" 304 -
+2024-08-27 16:11:50,643 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "[36mGET /dashboard/static/css/main.css HTTP/1.1[0m" 304 -
+2024-08-27 16:11:50,925 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "[36mGET /dashboard/static/elements/menu.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:50,927 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "[36mGET /dashboard/static/elements/modal.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:50,931 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "[36mGET /dashboard/static/pages/reporting.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:50,987 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:50] "GET /dashboard/api/custom_graphs HTTP/1.1" 200 -
+2024-08-27 16:11:52,375 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "[36mGET /dashboard/static/pages/overview.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:52,395 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "[36mGET /dashboard/static/pages/telemetry.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:52,429 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:11:52,433 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:11:52,450 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 16:11:52,464 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:52] "GET /dashboard/static/elements/monitorLevel.html HTTP/1.1" 200 -
+2024-08-27 16:11:56,107 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:56] "[36mGET /dashboard/static/pages/plotly_graph.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:56,126 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:56] "[36mGET /dashboard/static/elements/endpointDetails.html HTTP/1.1[0m" 304 -
+2024-08-27 16:11:56,131 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:56] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:11:57,088 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:57] "GET /dashboard/api/requests/2024-08-17/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:11:57,830 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:57] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:11:57,844 - INFO - 127.0.0.1 - - [27/Aug/2024 16:11:57] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:12:03,770 - INFO - 127.0.0.1 - - [27/Aug/2024 16:12:03] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:13:00,664 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:00] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:13:00,674 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:00] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:13:00,675 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:00] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 16:13:27,188 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:27] "POST /dashboard/api/set_rule HTTP/1.1" 200 -
+2024-08-27 16:13:31,259 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:31] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:13:32,544 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:32] "GET /dashboard/api/versions HTTP/1.1" 200 -
+2024-08-27 16:13:32,547 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:32] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:13:32,558 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:32] "POST /dashboard/api/multi_version HTTP/1.1" 200 -
+2024-08-27 16:13:33,201 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:33] "GET /dashboard/api/requests/2024-08-17/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:13:33,907 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:33] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:13:33,917 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:33] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:13:38,323 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:38] "[36mGET /dashboard/static/pages/configuration.html HTTP/1.1[0m" 304 -
+2024-08-27 16:13:38,346 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:38] "GET /dashboard/api/users HTTP/1.1" 200 -
+2024-08-27 16:13:38,349 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:38] "GET /dashboard/api/deploy_config HTTP/1.1" 200 -
+2024-08-27 16:13:38,357 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:38] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:13:38,358 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:38] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:13:39,727 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:39] "GET /dashboard/static/pages/database_management.html HTTP/1.1" 200 -
+2024-08-27 16:13:39,741 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:39] "GET /dashboard/database_pruning/get_database_size HTTP/1.1" 200 -
+2024-08-27 16:13:39,742 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:39] "[33mGET /dashboard/database_pruning/get_pruning_schedule HTTP/1.1[0m" 404 -
+2024-08-27 16:13:45,648 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:45] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:13:45,666 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:45] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 16:13:45,752 - INFO - 127.0.0.1 - - [27/Aug/2024 16:13:45] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:14:12,643 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:12] "GET /dashboard/api/hourly_load/2024-08-13/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:14:16,232 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:16] "GET /dashboard/api/versions HTTP/1.1" 200 -
+2024-08-27 16:14:16,235 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:16] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:14:16,248 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:16] "POST /dashboard/api/multi_version HTTP/1.1" 200 -
+2024-08-27 16:14:17,643 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:17] "GET /dashboard/api/requests/2024-08-17/2024-08-27 HTTP/1.1" 200 -
+2024-08-27 16:14:19,286 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:19] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:14:19,301 - INFO - 127.0.0.1 - - [27/Aug/2024 16:14:19] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:31:55,006 - INFO - Scheduler has been shut down
+2024-08-27 16:32:15,025 - WARNING - From C:\Users\lacom\Desktop\Simplon\vsc\debug_monitore\rennes_traffic_ko\.venv\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2024-08-27 16:32:15,945 - INFO - Scheduler started
+2024-08-27 16:32:15,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 16:32:15,996 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 16:32:29,636 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:29] "GET / HTTP/1.1" 200 -
+2024-08-27 16:32:32,501 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:32] "POST / HTTP/1.1" 200 -
+2024-08-27 16:32:40,563 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "GET /dashboard/api_performance HTTP/1.1" 200 -
+2024-08-27 16:32:40,730 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "[36mGET /dashboard/static/js/app.js HTTP/1.1[0m" 304 -
+2024-08-27 16:32:40,731 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "[36mGET /dashboard/static/css/main.css HTTP/1.1[0m" 304 -
+2024-08-27 16:32:40,968 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "[36mGET /dashboard/static/elements/menu.html HTTP/1.1[0m" 304 -
+2024-08-27 16:32:40,975 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "[36mGET /dashboard/static/elements/modal.html HTTP/1.1[0m" 304 -
+2024-08-27 16:32:40,980 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:40] "[36mGET /dashboard/static/pages/plotly_graph.html HTTP/1.1[0m" 304 -
+2024-08-27 16:32:41,020 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:41] "GET /dashboard/api/custom_graphs HTTP/1.1" 200 -
+2024-08-27 16:32:41,056 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:41] "GET /dashboard/static/elements/endpointDetails.html HTTP/1.1" 200 -
+2024-08-27 16:32:41,065 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:41] "GET /dashboard/api/endpoints_hits HTTP/1.1" 200 -
+2024-08-27 16:32:41,160 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:41] "GET /dashboard/static/elements/monitorLevel.html HTTP/1.1" 200 -
+2024-08-27 16:32:41,165 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:41] "POST /dashboard/api/api_performance HTTP/1.1" 200 -
+2024-08-27 16:32:43,962 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:43] "[36mGET /dashboard/static/pages/overview.html HTTP/1.1[0m" 304 -
+2024-08-27 16:32:43,980 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:43] "[36mGET /dashboard/static/pages/telemetry.html HTTP/1.1[0m" 304 -
+2024-08-27 16:32:44,007 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:44] "GET /dashboard/telemetry/get_is_telemetry_answered HTTP/1.1" 200 -
+2024-08-27 16:32:44,024 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:44] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2024-08-27 16:32:44,050 - INFO - 127.0.0.1 - - [27/Aug/2024 16:32:44] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2024-08-27 16:45:30,838 - INFO - Scheduler has been shut down
+2024-08-27 16:45:48,653 - ERROR - Failed to load model.h5: No file or directory found at modl.h5
+2024-08-27 16:45:49,454 - INFO - Scheduler started
+2024-08-27 16:45:49,508 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 16:45:49,508 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 16:46:02,453 - INFO - 127.0.0.1 - - [27/Aug/2024 16:46:02] "GET / HTTP/1.1" 200 -
+2024-08-27 16:46:05,183 - ERROR - Error in POST request: 'NoneType' object has no attribute 'predict'
+2024-08-27 16:46:05,184 - INFO - 127.0.0.1 - - [27/Aug/2024 16:46:05] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-08-27 16:46:44,446 - INFO - 127.0.0.1 - - [27/Aug/2024 16:46:44] "GET / HTTP/1.1" 200 -
+2024-08-27 16:47:03,392 - ERROR - Error in POST request: 'NoneType' object has no attribute 'predict'
+2024-08-27 16:47:03,393 - INFO - 127.0.0.1 - - [27/Aug/2024 16:47:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
